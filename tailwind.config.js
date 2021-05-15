@@ -3,6 +3,21 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      gridTemplateRows: {
+        '4': 'repeat(4, auto)'
+      },
+      screens: {
+        "2md": "840px",
+        "3md": "900px",
+      },
+      maxWidth: {
+        "2md": "980px",
+        "2lg": "1180px"
+      },
+      padding: {
+        '15': "3.85rem",
+        "5.5": "1.35rem",
+      },
       width: {
         '41': '10.15rem'
       },
@@ -29,6 +44,10 @@ module.exports = {
         },
         "radio-green": "#00FF00"
       },
+      letterSpacing: {
+        "ultra-wide": "0.25em",
+        "double-wide": "0.2em"
+      }
     },
   },
   variants: {
