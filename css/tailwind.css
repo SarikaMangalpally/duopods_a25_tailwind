@@ -47,3 +47,12 @@
 .user-name {
   @apply row-start-3 row-end-4 text-lg leading-tight mx-auto;
 }
+.sound-features-list-item {
+  @apply relative list-none grid grid-rows-2 gap-y-2 md:flex md:space-x-4;
+}
+.feature-image-border {
+  @apply w-10 h-10 rounded-full border-black-lighter border-2 opacity-10;
+}
+.sound-feature-text {
+  @apply relative text-lg font-medium;
+}

@@ -12,7 +12,7 @@
 <body class="font-gilroy md:max-w-2lg mx-auto">
   <div class="mx-auto text-center relative md:top-8">
     <div class="h-14 w-full bg-light-gray md:hidden"></div>
-    <section class="mx-4 md:grid grid-cols-10 grid-rows-4">
+    <section class="mx-6 md:grid grid-cols-10 grid-rows-4">
       <div class="md:col-start-6 md:col-end-11 md:row-start-1 md:row-end-2 md:text-left md:ml-5 2md:ml-16">
         <h1 class="mt-8 font-extrabold text-4xl tracking-normal bg-gradient-to-r from-orange-dark to-orange-light text-transparent bg-clip-text leading-normal  md:mt-0 md:text-7xl ">Duopods A25</h1>
         <p class="text-2xl text-black-light md:text-3xl md:my-3">Wireless Earbuds <br class="hidden md:block">of the future</p>
@@ -97,7 +97,7 @@
       </div>
     </section>
   </div>
-  <div class="relative ml-4">
+  <div class="relative ml-6">
     <ul class="reviews-list">
       <li>
         <div class="reviews-list-item">
@@ -146,23 +146,37 @@
       </li>
     </ul>
   </div>
-  <div>
-    <li>
-      <img src="" alt="">
-      <p>High-Definition Stereo Sound</p>
-    </li>
-    <li>
-      <img src="" alt="">
-      <p>20 Hours Play Time</p>
-    </li>
-    <li>
-      <img src="" alt="">
-      <p>Enhanced Calling Experience</p>
-    </li>
-    <li>
-      <img src="" alt="">
-      <p>Fast Charging</p>
-    </li>
+  <div class="mx-6 my-10 relative">
+    <ul class="relative grid grid-cols-2 gap-y-14 justify-between md:flex">
+      <li class="sound-features-list-item">
+        <div class="relative">
+          <div class="feature-image-border"></div>
+          <img src="assets/speaker.png" alt="speaker image" class="w-5 h-6 absolute top-2 left-2.5">
+        </div>
+        <p class="md:w-40 sound-feature-text leading-tight">High-Definition Stereo Sound</p>
+      </li>
+      <li class="sound-features-list-item justify-items-end">
+        <div class="relative">
+          <div class="feature-image-border"></div>
+          <img src="assets/alarm.png" alt="alarm image" class="w-6 h-6 absolute top-2 left-2">
+        </div>      
+          <p class="w-2/3 md:w-24 sound-feature-text leading-tight text-right md:text-left ">20 Hours Play Time</p>
+      </li>
+      <li class="sound-features-list-item">
+        <div class="relative">
+          <div class="feature-image-border"></div>
+          <img src="assets/phone.png" alt="phone image" class="w-6 h-6 absolute top-2 left-2">
+        </div>
+        <p class="md:w-40 sound-feature-text leading-tight">Enhanced Calling Experience</p>
+      </li>
+      <li class="sound-features-list-item justify-items-end">
+        <div class="relative">
+          <div class="feature-image-border"></div>
+          <img src="assets/battery.png" alt="charging image" class="w-4 h-6 absolute top-2 left-3">
+        </div>
+        <p class="w-2/3 md:w-24 sound-feature-text leading-tight text-right md:text-left ">Fast Charging</p>
+      </li>
+    </ul>
   </div>
   <div>
     <img src="" alt="music icon">
