@@ -20,10 +20,14 @@ module.exports = {
         "5.5": "1.35rem",
       },
       width: {
-        '41': '10.15rem'
+        '15': '3.75rem',
+        '41': '10.15rem',
+        '120': '36.25rem'
       },
       height: {
-        '82': "22rem"
+        '15': '3.75rem',
+        '82': "22rem",
+        '120': '36.25rem'
       },
       zIndex: {
         '-1': '-1'
@@ -47,7 +51,14 @@ module.exports = {
           DEFAULT: "#000000",
           medium: "#4B4955"
         },
-        "radio-green": "#00FF00"
+        "radio-green": "#00FF00",
+        violet: {
+          dark: "#7C16FE"
+        },
+        blue: {
+          dark: "#30CBFC"
+        }
+        
       },
       letterSpacing: {
         "ultra-wide": "0.25em",
