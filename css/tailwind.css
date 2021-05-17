@@ -29,3 +29,21 @@
   content: " ";
   /* border-style: hidden solid solid hidden; */
 }
+.reviews-list {
+  @apply relative flex mt-12 md:mt-16 overflow-x-auto;
+}
+.reviews-list-item {
+  @apply relative bg-light-gray w-72 h-64 md:w-96 md:h-80 mr-4 text-center;
+}
+.review-div {
+  @apply grid grid-rows-3 w-full h-full relative text-black-lighter justify-items-center;
+}
+.open-quotes {
+  @apply w-8 h-6 md:w-12 md:h-9 mx-auto row-start-1 row-end-2 mt-8 md:mt-12;
+}
+.user-review-text {
+  @apply w-56 md:w-72 row-start-2 row-end-3 text-xl md:text-2xl font-semibold tracking-wide opacity-80 leading-relaxed capitalize my-4 mx-auto md:my-8;
+}
+.user-name {
+  @apply row-start-3 row-end-4 text-lg leading-tight mx-auto;
+}
