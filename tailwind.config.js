@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateRows: {
-        '4': 'repeat(4, auto)'
+        '4': 'repeat(4, auto)',
+        '3': "1fr 2fr 1fr"
       },
       screens: {
         "2md": "840px",
@@ -20,6 +21,9 @@ module.exports = {
       },
       width: {
         '41': '10.15rem'
+      },
+      height: {
+        '82': "22rem"
       },
       zIndex: {
         '-1': '-1'
@@ -37,7 +41,8 @@ module.exports = {
           light: '#FF844B'
         },
         black: {
-          lighter: "#171C26",
+          lightest: "#171C26",
+          lighter: "#172032",
           light: "#191723",
           DEFAULT: "#000000",
           medium: "#4B4955"
