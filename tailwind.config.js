@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: theme => ({
+        'white-duopods': "url('/assets/white_duopods_with_bg.png')"
+      }),
       gridTemplateRows: {
         '4': 'repeat(4, auto)',
         '3': "1fr 2fr 1fr"
@@ -22,12 +25,14 @@ module.exports = {
       width: {
         '15': '3.75rem',
         '41': '10.15rem',
-        '120': '36.25rem'
+        '82': '22rem',
+        '120': '36.25rem',
       },
       height: {
         '15': '3.75rem',
         '82': "22rem",
-        '120': '36.25rem'
+        '120': '36.25rem',
+        '118': '33.75rem'
       },
       zIndex: {
         '-1': '-1'
@@ -57,6 +62,10 @@ module.exports = {
         },
         blue: {
           dark: "#30CBFC"
+        },
+        green: {
+          'light': "#00DC58",
+          "lighter": "#84E820"
         }
         
       },
