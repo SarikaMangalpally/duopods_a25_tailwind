@@ -47,7 +47,8 @@ module.exports = {
       colors: {
         orange: {
           dark: '#FD371F',
-          light: '#FF844B'
+          light: '#FF844B',
+          lightest: '#FC7A30'
         },
         black: {
           lightest: "#171C26",
@@ -66,6 +67,9 @@ module.exports = {
         green: {
           'light': "#00DC58",
           "lighter": "#84E820"
+        },
+        red: {
+          'dark': '#FE1616'
         }
         
       },
