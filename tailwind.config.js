@@ -2,6 +2,9 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+     dropshadow: {
+      xl: '1.1rem 2.2rem 3.4rem rgb(0, 0, 0, 0.15)'
+    },
     extend: {
       backgroundImage: theme => ({
         'white-duopods': "url('/assets/white_duopods_with_bg.png')"
@@ -45,9 +48,11 @@ module.exports = {
         'gilroy': ['Gilroy', 'sans-serif']
       },
       colors: {
+        "radio-green": "#00FF00",
         orange: {
           dark: '#FD371F',
-          light: '#FF844B'
+          light: '#FF844B',
+          lightest: '#FC7A30'
         },
         black: {
           lightest: "#171C26",
@@ -56,24 +61,30 @@ module.exports = {
           DEFAULT: "#000000",
           medium: "#4B4955"
         },
-        "radio-green": "#00FF00",
         violet: {
-          dark: "#7C16FE"
+          dark: "#7C16FE",
+          "ultra-dark": "#1F1927"
         },
         blue: {
-          dark: "#30CBFC"
+          dark: "#30CBFC",
+          
         },
         green: {
           'light': "#00DC58",
           "lighter": "#84E820"
+        },
+        red: {
+          'dark': '#FE1616'
+        },
+        ash: {
+          dark: "#5C638F",
         }
-        
       },
       letterSpacing: {
         "ultra-wide": "0.25em",
         "double-wide": "0.2em"
       }
-    },
+    }
   },
   variants: {
     extend: {
