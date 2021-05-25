@@ -22,6 +22,6 @@
     "eslint-plugin-react": "^7.23.2",
     "postcss": "^8.2.14",
     "tailwindcss": "^2.1.2",
-    "vite": "^2.2.4"
+    "vite": "^2.3.4"
   }
 }
