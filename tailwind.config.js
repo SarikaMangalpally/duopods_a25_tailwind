@@ -1,5 +1,8 @@
 module.exports = {
-  purge: ["./src/**/*.html"],
+  purge: {
+    enabled: true,
+    content: ["*.html"]
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     dropshadow: {
